@@ -314,7 +314,7 @@ def query_point_creator(q1, q2):
     return np.hstack((np.array(input_query).reshape(1, 22), q1_bow, q2_bow))
 
 import streamlit as st
-import hepler
+import helper
 import pickle
 
 model = pickle.load(open('model.pkl','rb'))
